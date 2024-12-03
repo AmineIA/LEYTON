@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Analytics</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .chart-container {
+            width: 800px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dashboard Analytics</h1>
+    <div id="error-message" style="color: red;"></div>
+    
+    <div class="chart-container">
+        <canvas id="deviceChart"></canvas>
+    </div>
+    <div class="chart-container">
+        <canvas id="pagesChart"></canvas>
+    </div>
+
+    <script>
+        // Récupérer les données
+        fetch('/stats')
+            .then(response => response.json())
+            .then(data => {
+                console.log('Données reçues:', data);
+                
+                if (Object.keys(data).length === 0) {
+                    document.getElementById('error-message').textContent = 
+                        'Aucune donnée disponible. Veuillez naviguer sur le site pour générer des données.';
+                    return;
+                }
+
+                // Traiter les données pour les graphiques
+                const deviceStats = processDeviceStats(data);
+                const pageStats = processPageStats(data);
+                
+                console.log('Statistiques appareils:', deviceStats);
+                console.log('Statistiques pages:', pageStats);
+                
+                // Créer les graphiques
+                createDeviceChart(deviceStats);
+                createPagesChart(pageStats);
+            })
+            .catch(error => {
+                console.error('Erreur:', error);
+                document.getElementById('error-message').textContent = 
+                    'Erreur lors du chargement des données: ' + error.message;
+            });
+
+        function processDeviceStats(data) {
+            const devices = {};
+            Object.values(data).flat().forEach(entry => {
+                const deviceType = entry.device.type;
+                devices[deviceType] = (devices[deviceType] || 0) + 1;
+            });
+            return devices;
+        }
+
+        function processPageStats(data) {
+            const pages = {};
+            Object.values(data).flat().forEach(entry => {
+                const url = entry.url;
+                pages[url] = (pages[url] || 0) + 1;
+            });
+            return pages;
+        }
+
+        function createDeviceChart(deviceStats) {
+            const ctx = document.getElementById('deviceChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(deviceStats),
+                    datasets: [{
+                        data: Object.values(deviceStats),
+                        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Distribution des appareils'
+                        }
+                    }
+                }
+            });
+        }
+
+        function createPagesChart(pageStats) {
+            const ctx = document.getElementById('pagesChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(pageStats),
+                    datasets: [{
+                        label: 'Nombre de visites',
+                        data: Object.values(pageStats),
+                        backgroundColor: '#36A2EB'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Pages les plus visitées'
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html> 

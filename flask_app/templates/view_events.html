@@ -1,0 +1,22 @@
+<thead>
+    <tr>
+        <th>ID</th>
+        <th>Nom de l'événement</th>
+        <th>Temps passé (secondes)</th>
+        <th>Produit</th>
+        <th>Prix (€)</th>
+        <th>Horodatage</th>
+    </tr>
+</thead>
+<tbody>
+    {% for event in events %}
+    <tr>
+        <td>{{ event.id }}</td>
+        <td>{{ event.event_name }}</td>
+        <td>{{ event.time_spent if event.time_spent else 'N/A' }}</td>
+        <td>{{ event.product if event.product else 'N/A' }}</td>
+        <td>{{ event.price if event.price else 'N/A' }}</td>
+        <td>{{ event.timestamp if event.timestamp else 'N/A' }}</td>
+    </tr>
+    {% endfor %}
+</tbody>

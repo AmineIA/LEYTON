@@ -1,0 +1,251 @@
+UserID,PagesVisitées,TempsTotal (sec),AjoutPanier,AjoutWishlist,ProduitsConsultés,ProduitsAchetés,PromosConsultées,DélaiEntreVisites (jours),SourceTrafic
+1,21,532,3,2,17,2,0,1,Direct
+2,24,1390,1,4,12,1,3,22,Réseaux Sociaux
+3,12,821,2,0,7,1,4,4,Direct
+4,28,1371,3,0,21,0,2,29,Publicité
+5,6,267,2,0,6,1,0,8,Recherche Organique
+6,16,1269,3,3,8,1,0,13,Réseaux Sociaux
+7,22,1689,1,4,17,1,1,12,Recherche Organique
+8,18,1324,2,4,11,2,1,27,Publicité
+9,17,1559,0,3,8,0,5,21,Publicité
+10,20,415,0,2,19,0,0,7,Réseaux Sociaux
+11,9,1110,1,0,9,0,5,20,Publicité
+12,15,1037,0,4,7,0,4,4,Publicité
+13,24,155,0,0,19,0,2,11,Recherche Organique
+14,8,387,4,0,6,4,2,9,Direct
+15,20,1549,0,2,12,0,3,8,Direct
+16,3,1265,4,0,3,0,0,4,Réseaux Sociaux
+17,28,1669,1,2,25,1,0,23,Recherche Organique
+18,12,1307,0,3,12,0,1,17,Publicité
+19,21,285,4,3,11,1,0,11,Recherche Organique
+20,22,528,1,4,22,0,4,27,Réseaux Sociaux
+21,5,874,2,0,3,2,0,17,Réseaux Sociaux
+22,8,1579,0,0,5,0,4,21,Direct
+23,26,855,1,3,17,0,1,2,Réseaux Sociaux
+24,24,525,3,3,17,1,5,3,Recherche Organique
+25,26,1140,3,5,23,1,3,9,Réseaux Sociaux
+26,13,1828,3,5,13,2,1,14,Direct
+27,3,1658,2,0,1,2,0,28,Publicité
+28,30,1006,2,1,16,1,3,21,Publicité
+29,16,1720,4,5,9,4,5,18,Publicité
+30,27,1926,3,5,14,3,5,11,Réseaux Sociaux
+31,21,851,1,0,14,1,3,1,Réseaux Sociaux
+32,28,1577,1,3,25,1,1,18,Direct
+33,30,514,5,4,24,1,1,24,Publicité
+34,14,272,3,2,7,3,4,7,Réseaux Sociaux
+35,8,387,3,0,7,2,3,26,Direct
+36,13,1096,2,5,6,2,0,17,Publicité
+37,9,1098,1,0,4,0,3,27,Réseaux Sociaux
+38,15,868,4,4,11,2,3,16,Réseaux Sociaux
+39,26,1127,5,5,25,4,2,8,Publicité
+40,27,1516,0,1,22,0,3,30,Recherche Organique
+41,4,1695,1,0,2,0,0,6,Recherche Organique
+42,19,1531,0,3,18,0,3,1,Direct
+43,17,1008,5,0,8,1,5,20,Réseaux Sociaux
+44,14,1154,3,2,14,2,5,13,Recherche Organique
+45,19,1381,5,5,12,5,3,18,Publicité
+46,27,1639,2,3,27,1,3,14,Réseaux Sociaux
+47,5,839,1,0,5,1,0,1,Réseaux Sociaux
+48,15,481,0,2,13,0,5,24,Réseaux Sociaux
+49,16,224,0,4,14,0,0,23,Recherche Organique
+50,25,470,2,1,16,0,4,30,Publicité
+51,25,682,3,3,13,0,3,22,Recherche Organique
+52,14,1999,1,3,10,0,1,17,Réseaux Sociaux
+53,13,144,2,0,13,0,1,9,Publicité
+54,14,1346,2,4,12,2,0,22,Direct
+55,19,1759,4,2,13,1,4,8,Réseaux Sociaux
+56,21,1951,0,3,14,0,3,10,Réseaux Sociaux
+57,18,1366,2,1,15,1,4,6,Direct
+58,11,1608,0,5,7,0,5,12,Recherche Organique
+59,22,1523,2,3,13,2,4,22,Direct
+60,18,1944,4,3,11,0,5,10,Recherche Organique
+61,18,1912,2,3,10,1,4,24,Direct
+62,24,267,2,1,24,0,4,1,Recherche Organique
+63,15,303,5,5,11,4,4,29,Recherche Organique
+64,16,1214,0,5,8,0,3,25,Réseaux Sociaux
+65,15,653,3,2,15,2,2,15,Direct
+66,5,304,2,0,4,0,0,6,Publicité
+67,24,1646,3,5,22,3,3,19,Direct
+68,10,1440,3,0,7,0,4,0,Recherche Organique
+69,18,1225,4,2,17,0,3,18,Recherche Organique
+70,5,1443,2,0,2,1,0,6,Réseaux Sociaux
+71,11,483,4,3,10,3,3,14,Direct
+72,26,1241,0,4,14,0,3,7,Réseaux Sociaux
+73,20,618,5,4,18,4,5,1,Recherche Organique
+74,8,107,0,0,6,0,0,16,Recherche Organique
+75,21,287,2,2,11,0,0,0,Recherche Organique
+76,29,203,0,2,18,0,1,2,Publicité
+77,26,1658,1,5,16,0,5,8,Publicité
+78,7,286,0,0,7,0,0,11,Direct
+79,26,1548,2,3,19,2,3,30,Réseaux Sociaux
+80,16,1705,3,5,14,0,4,10,Publicité
+81,6,1694,3,0,3,3,3,2,Direct
+82,30,969,1,2,15,0,1,30,Recherche Organique
+83,26,341,0,5,17,0,3,1,Recherche Organique
+84,8,877,3,0,7,0,0,15,Direct
+85,22,1233,0,1,15,0,5,24,Recherche Organique
+86,28,1505,5,5,26,2,4,8,Direct
+87,8,1749,5,0,6,3,1,0,Recherche Organique
+88,1,521,0,0,1,0,0,14,Publicité
+89,15,1849,4,1,11,0,1,14,Recherche Organique
+90,23,1669,0,5,21,0,5,0,Direct
+91,20,104,2,5,13,0,1,19,Direct
+92,15,816,5,1,12,3,4,18,Direct
+93,23,1725,2,2,18,1,1,2,Publicité
+94,28,384,5,0,23,1,0,29,Recherche Organique
+95,19,590,2,2,9,1,4,18,Publicité
+96,21,106,4,5,12,4,2,15,Direct
+97,25,370,5,1,23,0,5,24,Réseaux Sociaux
+98,19,1182,5,4,18,3,3,22,Direct
+99,27,366,2,2,26,2,3,29,Réseaux Sociaux
+100,9,203,3,0,4,3,1,7,Direct
+101,6,1537,2,0,4,2,0,14,Direct
+102,24,1902,1,3,19,1,4,4,Publicité
+103,23,630,3,0,21,2,3,16,Direct
+104,7,600,1,0,4,0,2,19,Publicité
+105,15,435,3,4,11,0,4,16,Recherche Organique
+106,29,691,2,5,29,0,5,14,Publicité
+107,1,228,2,0,1,1,0,22,Direct
+108,11,1598,4,0,11,4,1,6,Réseaux Sociaux
+109,28,1053,5,2,27,2,4,24,Publicité
+110,13,1319,2,2,12,2,3,15,Recherche Organique
+111,2,763,3,0,2,3,0,20,Recherche Organique
+112,4,826,1,0,2,1,0,18,Recherche Organique
+113,3,1912,0,0,3,0,0,7,Publicité
+114,29,619,5,1,15,4,1,27,Direct
+115,19,1397,4,5,19,3,3,9,Direct
+116,6,1332,0,0,6,0,1,3,Réseaux Sociaux
+117,1,1610,0,0,0,0,0,14,Direct
+118,15,228,4,1,14,1,0,8,Publicité
+119,3,1024,2,0,1,1,0,0,Publicité
+120,16,1487,5,1,13,2,5,7,Direct
+121,27,298,4,4,21,4,2,14,Publicité
+122,25,454,2,0,23,1,0,17,Publicité
+123,12,1271,1,4,11,1,0,25,Recherche Organique
+124,16,1171,0,0,12,0,3,18,Publicité
+125,7,581,0,0,6,0,2,4,Publicité
+126,21,1023,3,5,17,0,2,0,Direct
+127,4,256,3,0,4,0,0,22,Publicité
+128,16,226,5,4,8,1,5,13,Publicité
+129,20,1065,2,4,20,2,0,19,Publicité
+130,29,129,1,2,20,1,0,20,Réseaux Sociaux
+131,3,274,2,0,1,2,0,19,Recherche Organique
+132,12,893,1,2,7,1,5,9,Réseaux Sociaux
+133,1,370,4,0,1,3,0,17,Publicité
+134,5,329,3,0,3,0,0,15,Publicité
+135,2,1901,2,0,2,2,0,17,Direct
+136,6,1859,5,0,5,4,3,20,Publicité
+137,10,1898,3,0,7,1,0,27,Direct
+138,23,1345,5,4,20,5,4,6,Publicité
+139,21,1174,4,4,11,1,2,2,Publicité
+140,3,1967,0,0,1,0,0,27,Publicité
+141,27,1479,1,4,15,1,5,0,Direct
+142,11,655,1,2,11,1,2,20,Réseaux Sociaux
+143,15,1821,3,0,9,0,5,28,Recherche Organique
+144,19,440,3,3,19,2,4,28,Direct
+145,21,1226,1,4,17,0,5,12,Publicité
+146,14,729,1,0,14,0,2,19,Direct
+147,7,755,0,0,6,0,5,19,Direct
+148,10,1056,4,0,5,1,0,5,Recherche Organique
+149,26,1508,3,3,19,0,3,22,Recherche Organique
+150,30,1717,1,4,26,1,0,27,Recherche Organique
+151,30,727,5,3,25,5,5,2,Publicité
+152,5,1617,4,0,2,1,0,22,Direct
+153,28,1437,1,5,24,0,5,6,Recherche Organique
+154,10,1293,3,0,6,2,2,27,Direct
+155,29,1220,1,1,25,0,4,12,Direct
+156,21,1928,5,3,14,0,5,30,Réseaux Sociaux
+157,7,349,1,0,6,1,2,27,Publicité
+158,11,1028,4,1,11,1,2,28,Direct
+159,13,1658,0,2,12,0,2,30,Recherche Organique
+160,17,623,5,3,13,2,0,28,Réseaux Sociaux
+161,7,1629,3,0,5,3,5,9,Réseaux Sociaux
+162,25,1719,0,4,21,0,1,20,Réseaux Sociaux
+163,21,1640,3,5,11,3,1,15,Publicité
+164,3,190,4,0,1,0,0,18,Réseaux Sociaux
+165,11,470,2,3,11,0,2,29,Direct
+166,24,485,1,2,15,0,4,25,Direct
+167,21,1000,2,3,17,2,1,12,Réseaux Sociaux
+168,8,754,1,0,4,0,2,3,Direct
+169,2,1449,2,0,1,1,0,18,Publicité
+170,29,801,4,4,24,2,5,0,Réseaux Sociaux
+171,1,994,1,0,0,1,0,26,Recherche Organique
+172,21,1367,4,5,18,2,5,17,Recherche Organique
+173,7,605,1,0,5,0,0,30,Publicité
+174,28,1277,3,4,19,1,5,25,Réseaux Sociaux
+175,20,1359,2,2,10,0,5,1,Direct
+176,17,1758,5,4,17,4,1,18,Recherche Organique
+177,19,295,0,0,17,0,0,30,Recherche Organique
+178,16,253,1,0,14,1,4,18,Publicité
+179,22,903,0,3,15,0,3,25,Publicité
+180,11,700,2,3,8,0,2,8,Réseaux Sociaux
+181,3,1086,0,0,1,0,0,11,Recherche Organique
+182,21,823,1,0,15,1,4,3,Réseaux Sociaux
+183,19,347,3,0,19,1,4,19,Publicité
+184,2,150,3,0,2,1,0,30,Direct
+185,10,211,0,0,10,0,0,9,Réseaux Sociaux
+186,28,1320,3,0,18,3,5,30,Réseaux Sociaux
+187,15,266,0,0,9,0,5,8,Réseaux Sociaux
+188,29,666,2,3,21,1,3,20,Publicité
+189,11,1883,1,3,5,1,5,0,Direct
+190,1,1649,0,0,1,0,0,13,Recherche Organique
+191,15,1313,2,3,12,1,3,29,Publicité
+192,1,852,4,0,0,2,0,22,Réseaux Sociaux
+193,24,795,4,0,24,3,4,7,Direct
+194,5,1193,2,0,5,1,0,27,Recherche Organique
+195,23,1989,3,2,21,3,2,11,Réseaux Sociaux
+196,11,1937,0,1,11,0,4,19,Recherche Organique
+197,26,670,2,3,24,0,4,24,Publicité
+198,26,706,5,1,23,4,2,26,Direct
+199,23,1856,3,3,19,0,4,0,Recherche Organique
+200,4,1620,0,0,3,0,0,26,Recherche Organique
+201,17,1293,0,1,17,0,2,3,Direct
+202,9,1300,1,0,9,1,3,12,Recherche Organique
+203,24,1592,3,1,13,0,3,30,Publicité
+204,26,358,3,2,20,3,0,13,Publicité
+205,2,351,4,0,1,2,0,22,Réseaux Sociaux
+206,17,513,4,0,15,3,3,19,Recherche Organique
+207,15,1506,3,2,10,0,3,4,Réseaux Sociaux
+208,13,482,3,5,13,1,1,21,Réseaux Sociaux
+209,21,1407,3,1,15,0,2,25,Réseaux Sociaux
+210,27,857,2,0,15,0,4,15,Direct
+211,5,422,0,0,4,0,0,24,Réseaux Sociaux
+212,4,1208,3,0,3,1,0,19,Recherche Organique
+213,27,1569,5,3,22,4,0,30,Publicité
+214,5,1034,1,0,3,0,0,24,Réseaux Sociaux
+215,5,640,3,0,5,3,0,10,Publicité
+216,9,397,0,0,7,0,2,6,Direct
+217,26,119,3,3,13,0,2,20,Publicité
+218,4,213,4,0,3,1,0,16,Recherche Organique
+219,20,1727,2,3,14,0,4,16,Réseaux Sociaux
+220,1,1451,4,0,0,3,0,21,Publicité
+221,6,883,4,0,6,0,2,28,Réseaux Sociaux
+222,29,702,2,0,15,1,1,24,Recherche Organique
+223,21,1047,4,4,20,4,0,0,Réseaux Sociaux
+224,11,509,2,2,10,1,0,25,Réseaux Sociaux
+225,9,605,4,0,6,2,5,30,Réseaux Sociaux
+226,18,1420,0,5,9,0,0,7,Réseaux Sociaux
+227,30,1555,0,0,19,0,0,23,Publicité
+228,29,1131,4,2,20,3,0,11,Réseaux Sociaux
+229,13,394,2,3,7,1,1,18,Publicité
+230,1,1639,4,0,0,2,0,3,Réseaux Sociaux
+231,7,1006,1,0,4,0,1,7,Réseaux Sociaux
+232,30,1522,4,1,27,0,4,4,Recherche Organique
+233,12,1795,2,3,12,2,0,25,Recherche Organique
+234,25,538,3,1,13,2,0,16,Direct
+235,12,1698,5,0,11,5,2,2,Recherche Organique
+236,21,397,2,5,20,1,3,8,Recherche Organique
+237,30,1754,4,3,29,3,5,4,Direct
+238,7,746,5,0,7,5,1,30,Réseaux Sociaux
+239,23,333,3,2,13,2,1,7,Réseaux Sociaux
+240,20,134,5,0,15,0,1,15,Réseaux Sociaux
+241,18,949,3,3,11,1,1,3,Recherche Organique
+242,24,277,1,2,15,1,1,19,Direct
+243,15,513,0,2,9,0,5,12,Réseaux Sociaux
+244,16,850,3,1,10,2,5,23,Réseaux Sociaux
+245,3,269,1,0,1,1,0,0,Direct
+246,25,1571,2,2,16,0,1,5,Recherche Organique
+247,5,847,5,0,4,0,0,7,Publicité
+248,25,622,5,4,16,1,0,1,Réseaux Sociaux
+249,28,1459,0,3,28,0,3,16,Direct
+250,26,1050,2,0,18,0,1,22,Direct

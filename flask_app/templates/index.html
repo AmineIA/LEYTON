@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Flask Page</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur notre site E-commerce</h1>
+        <nav>
+            <a href="/">Accueil</a>
+            <a href="/shop">Boutique</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Découvrir nos produits</h2>
+            <button id="cta-button">Ajouter au panier</button>
+            <p id="product-info">Produit : T-shirt | Prix : 20€</p>
+        </section>
+        <section>
+            <h3>Informations de navigation</h3>
+            <ul>
+                <li>Temps total sur la page : <span id="time-spent">0</span> secondes</li>
+                <li>Nombre de clics sur le bouton : <span id="button-clicks">0</span></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mon Site E-commerce</p>
+    </footer>
+    <script src="/static/scripts.js"></script>
+</body>
+</html>

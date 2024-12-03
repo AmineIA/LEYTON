@@ -1,0 +1,20 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Envoyer la résolution d'écran
+    const screenData = {
+        width: window.screen.width,
+        height: window.screen.height
+    };
+
+    // Temps passé sur la page
+    let startTime = Date.now();
+    window.addEventListener('beforeunload', function() {
+        const timeSpent = Date.now() - startTime;
+        // Envoyer le temps passé au serveur
+        navigator.sendBeacon('/track-time', JSON.stringify({
+            timeSpent: timeSpent,
+            url: window.location.href
+        }));
+    });
+});
+</script> 
